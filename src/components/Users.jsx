@@ -61,7 +61,7 @@ const LoadedUsers = () => {
                                 <th>1</th>
                                 <td>{user.name}</td>
                                 <td>{user.email}</td>
-                                <td>Blue</td>
+                                <td>{user?.metadata?.lastSignInTime}</td>
                                 <td className="space-x-4">
                                     <button className="btn btn-success">E</button>
                                     <button
